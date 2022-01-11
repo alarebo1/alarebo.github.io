@@ -91,11 +91,16 @@
 		 			<p class="card__body">TruckerMaps is a logistics tool meant to help truckers by giving them an organized view of 
 						warehouses they need to reach and the time they need to be there by. </p>
 		 			<button type="button" class="button_order">GitHub</button><br>
-					 <button type="button" class="button_order">Demo</button>
+					 <button id ="myButton" type="button" class="button_order">Demo</button>
 		 		</div>
 		 	</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+	    document.getElementById("myButton").onclick = function () {
+		location.href = "http://truckermaps.herokuapp.com";
+	    };
+	</script>
 </main>
 
 <div class="contact" id="contact">
